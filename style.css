@@ -1,0 +1,50 @@
+
+.hidden{
+    display:none;
+
+}
+.portfolio-wrapper{
+    display: flex;
+    
+}
+
+.filter-nav{
+    width: 25%;
+    margin-top: 10vh;
+    margin-bottom: 15vh;
+}
+
+.form-select{
+    max-width: 75% !important;
+    box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.1), inset -6px -6px 10px 0 rgba(255, 255, 255, 0.25);
+
+}
+
+.projekt-list{
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2vw;
+    margin-top: 10vh;
+    margin-bottom: 15vh;
+
+}
+
+
+.projekt-card{
+    box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2), inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
+    width: 15vw;
+    height: 15vw;
+    background-color: #e0e0e0;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.projekt-title{
+    font-weight: 500;
+    
+}
